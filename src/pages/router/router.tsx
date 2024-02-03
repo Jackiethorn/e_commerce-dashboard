@@ -1,13 +1,29 @@
 import { Route, Routes } from "react-router-dom";
-import { routerType } from "../../types/router.types";
-import pagesData from "./pagesData";
+import { Home } from "../Home";
+import { NotFound } from "../NotFound";
+import { Team } from "../Team";
+import { Customers } from "../Customers";
+import { ProductRoutes } from "./ProductRoutes";
+import { OrderRoutes } from "./OrderRoutes";
+
+
+
+const renderRoutes = () => {
+    return (
+        <Routes>
+            <Route path="" element={<Home />} />
+            <Route path="/products/*" element={<ProductRoutes />} />
+            <Route path="/orders/*" element={<OrderRoutes />} />
+            <Route path="/customers" element={<Customers />} />
+            <Route path="/team" element={<Team />} />
+            <Route path="*" element={<NotFound />} />
+        </Routes>
+    )
+}
+
 
 const Router = () => {
-    const pageRoutes = pagesData.map(({ path, element, title }: routerType) => {
-        return <Route key={title} path={`/${path}`} element={element} />
-    });
-
-    return <Routes>{pageRoutes}</Routes>
+    return renderRoutes();
 };
 
 export default Router;
