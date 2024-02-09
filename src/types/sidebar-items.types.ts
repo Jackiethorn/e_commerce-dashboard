@@ -7,14 +7,20 @@ type NestedSidebarItem = BaseSidebarItem & {
   items: SidebarItemType[];
 };
 
-type SubHeaderItem = NestedSidebarItem & {
-  type: "sub-header";
+type SectionHeader = NestedSidebarItem & {
+  type: "section-header";
 };
 
-type LinkItem = BaseSidebarItem & {
-  type: "link-item";
+type MenuList = BaseSidebarItem & {
+  type: "menu-list";
+} & Partial<NestedSidebarItem> & {
+    icon: string;
+  };
+
+type MenuItem = BaseSidebarItem & {
+  type: "menu-item";
   link: string;
   icon: string;
 } & Partial<NestedSidebarItem>;
 
-export type SidebarItemType = SubHeaderItem | LinkItem;
+export type SidebarItemType = SectionHeader | MenuList | MenuItem;
