@@ -18,7 +18,7 @@ type MenuList = BaseSidebarItem & {
   };
 
 type MenuItem = BaseSidebarItem & {
-  type: "menu-item";
+  type: "menu-item" | "sub-menu-item";
   link: string;
   icon: string;
 } & Partial<NestedSidebarItem>;
