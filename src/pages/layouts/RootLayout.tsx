@@ -5,7 +5,7 @@ import { Footer } from "../../components/Footer";
 
 export const RootLayout = () => {
     return (
-        <div className="min-h-dvh bg-colors-background grid grid-cols-6 grid-rows-auto">
+        <div className="min-h-dvh grid grid-cols-6 grid-rows-auto text-black">
             <aside className="col-span-1 row-span-3 mr-7">
                 <Sidebar />
             </aside>
@@ -15,7 +15,7 @@ export const RootLayout = () => {
             </header>
 
 
-            <main className="col-span-5 row-span-1 mr-4">
+            <main className="col-span-5 row-span-1 mr-4 bg-colors-background">
                 <Outlet />
             </main>
 
