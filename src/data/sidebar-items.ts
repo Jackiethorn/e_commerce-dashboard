@@ -9,27 +9,27 @@ export const sidebarItems: SidebarItemType[] = [
       {
         title: "Dashboard",
         link: "/",
-        icon: "public/assets/icons/sidebar_link-home.svg",
+        icon: "/assets/icons/sidebar_link-home.svg",
         type: "menu-item",
         id: "bbf2b276-5199-4e9e-88f3-59f9f503c214",
       },
       {
         title: "Products",
-        icon: "public/assets/icons/sidebar_link-products.svg",
+        icon: "/assets/icons/sidebar_link-products.svg",
         type: "menu-list",
         id: "37ff5c42-43b2-44db-999a-d84ac5311e4a",
         items: [
           {
             title: "Product List",
             link: "/products",
-            icon: "public/assets/icons/sidebar_link-dot.svg",
+            icon: "/assets/icons/sidebar_link-dot.svg",
             type: "sub-menu-item",
             id: "f3e3e3e3-3e3e-3e3e-3e3e-3e3e3e3e3e3e",
           },
           {
             title: "Add Product",
             link: "/products/new",
-            icon: "public/assets/icons/sidebar_link-dot.svg",
+            icon: "/assets/icons/sidebar_link-dot.svg",
             type: "sub-menu-item",
             id: "68002c38-6a97-4f64-b5d4-1f84e8ffabc0",
           },
@@ -37,14 +37,14 @@ export const sidebarItems: SidebarItemType[] = [
       },
       {
         title: "Customers",
-        icon: "public/assets/icons/sidebar_link-customers.svg",
+        icon: "/assets/icons/sidebar_link-customers.svg",
         type: "menu-list",
         id: "17fc6cdb-8219-4ffa-804e-29a618f515cf",
         items: [
           {
             title: "Customer List",
             link: "/customers",
-            icon: "public/assets/icons/sidebar_link-dot.svg",
+            icon: "/assets/icons/sidebar_link-dot.svg",
             type: "sub-menu-item",
             id: "3676d055-2283-48e3-bf4a-4511f00f25dd",
           },
@@ -52,14 +52,14 @@ export const sidebarItems: SidebarItemType[] = [
       },
       {
         title: "Orders",
-        icon: "public/assets/icons/sidebar_link-orders.svg",
+        icon: "/assets/icons/sidebar_link-orders.svg",
         type: "menu-list",
         id: "837c3223-cb1a-4bac-b6dc-32342c66530d",
         items: [
           {
             title: "Order List",
             link: "/orders",
-            icon: "public/assets/icons/sidebar_link-dot.svg",
+            icon: "/assets/icons/sidebar_link-dot.svg",
             type: "sub-menu-item",
             id: "371dd719-ec91-44f6-9fdb-5b90f1781da4",
           },
@@ -68,7 +68,7 @@ export const sidebarItems: SidebarItemType[] = [
       {
         title: "Team",
         link: "/team",
-        icon: "public/assets/icons/sidebar_link-team.svg",
+        icon: "/assets/icons/sidebar_link-team.svg",
         type: "menu-item",
         id: "3d84430a-d7ea-42d9-8a4a-ed98a91d7595",
       },
@@ -82,14 +82,14 @@ export const sidebarItems: SidebarItemType[] = [
       {
         title: "Settings",
         link: "/settings",
-        icon: "public/assets/icons/sidebar_link-settings.svg",
+        icon: "/assets/icons/sidebar_link-settings.svg",
         type: "menu-item",
         id: "18b632f4-669b-4be5-bf77-05089c1f8d50",
       },
       {
         title: "Profile",
         link: "/profile",
-        icon: "public/assets/icons/sidebar_link-profile.svg",
+        icon: "/assets/icons/sidebar_link-profile.svg",
         type: "menu-item",
         id: "5832b0c4-0f8c-477e-bf5b-c2693eb7ecfe",
       },
