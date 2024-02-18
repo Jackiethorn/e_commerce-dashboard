@@ -40,7 +40,7 @@ export const MenuBar = ({ title, icon, items, activeTab, onTabChange }: SidebarI
 
 
     return (
-        <Collapsible className={"outline-1 rounded-md mt-1 ml-2"}>
+        <Collapsible className={"outline-1 rounded-md mt-1 xl:ml-2"}>
             <CollapsibleTrigger className="w-full">
                 <div className={"hover:bg-slate-100 cursor-pointer flex items-center justify-between"}>
                     <div className="flex py-3 px-2 items-center gap-1">

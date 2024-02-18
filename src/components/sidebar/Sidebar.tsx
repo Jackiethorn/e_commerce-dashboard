@@ -5,8 +5,12 @@ import { MenuBar } from "./SidebarItems.tsx";
 import { LinkItem } from "./SidebarItems.tsx";
 import { useState } from "react";
 
+type SidebarProps = {
+    isSidebarOpen: boolean;
+};
 
-export const Sidebar = () => {
+
+export const Sidebar = ({ isSidebarOpen }: SidebarProps) => {
     //TODO: CURRENT ACTIVE TAB IMPLEMENTATION IS NOT OPTIMAL. REFACTOR IT SO THAT IT CAN WORK EVEN WHEN ROUTE
     //IS CHANGED BY HAND OR WHEN THE COMPONENT IS REMOUNTED. ALSO A LOT OF PROP DRILLING IS HAPPENING, USING CONTEXT IS AN IDEA.
     const [activeTab, setActiveTab] = useState("");
@@ -14,6 +18,8 @@ export const Sidebar = () => {
     const handleTabClick = (tab: string) => {
         setActiveTab(tab);
     };
+
+    const sidebarClasses = `sidebar h-screen w-fit xl:w-full xl:w-auto shadow-lg bg-colors-foreground ${isSidebarOpen ? "block" : "hidden"} z-50`
 
     const renderSidebarItems = (items: SidebarItemType[]) => {
         return items.map((item) => {
@@ -38,7 +44,7 @@ export const Sidebar = () => {
                 );
             } else {
                 return (
-                    <ul key={item.id} className="mt-1 ml-2">
+                    <ul key={item.id} className="mt-1 xl:ml-2">
                         <LinkItem title={item.title} link={item.link} icon={item.icon}
                             type={item.type} activeTab={activeTab} onTabChange={handleTabClick} />
                     </ul>
@@ -49,7 +55,7 @@ export const Sidebar = () => {
 
 
     return (
-        <div className="sidebar h-screen shadow-lg bg-colors-foreground">
+        <div className={sidebarClasses}>
             <div className="sidebar-content flex flex-col items-start ml-3 mr-3">
                 <div className="heading mt-5 mb-5">
                     <h1 className="text-2xl font-bold">Dashboard</h1>
