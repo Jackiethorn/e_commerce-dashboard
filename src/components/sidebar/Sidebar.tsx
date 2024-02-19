@@ -7,10 +7,11 @@ import { useState } from "react";
 
 type SidebarProps = {
     isSidebarOpen: boolean;
+    onSidebarToggle: (isSidebarOpen: boolean) => void;
 };
 
 
-export const Sidebar = ({ isSidebarOpen }: SidebarProps) => {
+export const Sidebar = ({ isSidebarOpen, onSidebarToggle }: SidebarProps) => {
     //TODO: CURRENT ACTIVE TAB IMPLEMENTATION IS NOT OPTIMAL. REFACTOR IT SO THAT IT CAN WORK EVEN WHEN ROUTE
     //IS CHANGED BY HAND OR WHEN THE COMPONENT IS REMOUNTED. ALSO A LOT OF PROP DRILLING IS HAPPENING, USING CONTEXT IS AN IDEA.
     const [activeTab, setActiveTab] = useState("");
@@ -18,6 +19,10 @@ export const Sidebar = ({ isSidebarOpen }: SidebarProps) => {
     const handleTabClick = (tab: string) => {
         setActiveTab(tab);
     };
+
+    const handleCloseSidebar = () => {
+        onSidebarToggle(!isSidebarOpen);
+    }
 
     const sidebarClasses = `sidebar h-screen w-fit xl:w-full xl:w-auto shadow-lg bg-colors-foreground ${isSidebarOpen ? "block" : "hidden"} z-50`
 
@@ -55,10 +60,11 @@ export const Sidebar = ({ isSidebarOpen }: SidebarProps) => {
 
 
     return (
-        <div className={sidebarClasses}>
+        <div className={sidebarClasses + "relative"}>
             <div className="sidebar-content flex flex-col items-start ml-3 mr-3">
                 <div className="heading mt-5 mb-5">
                     <h1 className="text-2xl font-bold">Dashboard</h1>
+                    <img onClick={handleCloseSidebar} className="xl:hidden absolute right-1 top-0 hover:cursor-pointer" src="/assets/icons/sidebar_link-close.svg" alt="close sidebar" />
                 </div>
                 <div className="sidebar-menu w-full">
                     {renderSidebarItems(sidebarItems)}

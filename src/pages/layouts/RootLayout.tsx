@@ -29,8 +29,8 @@ export const RootLayout = () => {
 
     return (
         <div className="min-h-dvh grid grid-cols-6 auto-rows-min grid-rows-auto text-black relative">
-            <aside className={`w-fit xl:w-auto col-span-1 row-span-3 mr-7 ${isSidebarOpen ? "relative" : "xl:absolute"} z-50 backdrop-blur-md backdrop-contrast-200`}>
-                <Sidebar isSidebarOpen={isSidebarOpen} />
+            <aside className={`w-fit xl:w-auto col-span-1 row-span-3 mr-7 ${isSidebarOpen ? "relative" : "xl:absolute"} z-50 backdrop-blur-md backdrop-contrast-200 xl:backdrop-blur-none xl:backdrop-contrast-100`}>
+                <Sidebar isSidebarOpen={isSidebarOpen} onSidebarToggle={handleSidebarToggle} />
             </aside>
 
             <header className={`col-span-full xl:col-span-5 row-end-auto mr-4 mb-7 ml-4 xl:ml-0 ${isSidebarOpen ? "col-start-2" : ""}`}>
