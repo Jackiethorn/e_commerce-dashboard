@@ -28,11 +28,11 @@ module.exports = {
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
+          DEFAULT: "#7367F0",
           foreground: "",
         },
         destructive: {
-          DEFAULT: "hsl(var(--destructive))",
+          DEFAULT: "#D34C4D",
           foreground: "hsl(var(--destructive-foreground))",
         },
         muted: {
@@ -70,6 +70,12 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      fontSize: {
+        primary_clamp: "clamp(.6rem, 1vw, 2.5rem)",
+        secondary_clamp: "clamp(.9rem, 1.3vw, 3rem)",
+        terniary_clamp: "clamp(.4rem, .84vw, 2rem)",
+        numbers_clamp: "clamp(1.25rem, 1.5vw, 3.3rem)",
       },
     },
   },

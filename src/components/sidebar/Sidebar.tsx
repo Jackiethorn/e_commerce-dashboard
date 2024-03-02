@@ -1,4 +1,4 @@
-import { sidebarItems } from "../../data/sidebar-items.ts";
+import { sidebarItems } from "../../resources/data/sidebar-items.ts";
 import { SidebarItemType } from "../../types/sidebar-items.types.ts";
 import { SectionHeader } from "./SidebarItems.tsx";
 import { MenuBar } from "./SidebarItems.tsx";
@@ -60,7 +60,7 @@ export const Sidebar = ({ isSidebarOpen, onSidebarToggle }: SidebarProps) => {
 
 
     return (
-        <div className={sidebarClasses + "relative"}>
+        <div className={sidebarClasses + "relative text-primary_clamp"}>
             <div className="sidebar-content flex flex-col items-start ml-3 mr-3">
                 <div className="heading mt-5 mb-5">
                     <h1 className="text-2xl font-bold">Dashboard</h1>

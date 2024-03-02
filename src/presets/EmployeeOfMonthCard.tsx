@@ -11,11 +11,11 @@ export const employeeOfMonthCard = (name: string, sale: number, img: string) => 
   imageAlt: "Employee of the Month",
   render: function () {
     return (
-      <div className="flex gap-3 py-2">
+      <div className="flex gap-3 py-2.5 px-1">
         <div className="flex flex-col gap-1">
-          <h2>{`Congratulations ${name}! 🎉`}</h2>
-          <small>{this.description}</small>
-          <span className="text-secondary">${this.thisMonthsSale}k</span>
+          <h2 className="text-secondary_clamp">{`Congratulations ${name}! 🎉`}</h2>
+          <small className="opacity-75 text-primary_clamp">{this.description}</small>
+          <span className="text-secondary text-numbers_clamp">${this.thisMonthsSale}k</span>
           <Button variation="primary" rounded className="w-fit px-5">
             View Sales
           </Button>
