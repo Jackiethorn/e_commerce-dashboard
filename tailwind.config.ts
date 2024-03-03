@@ -20,7 +20,12 @@ module.exports = {
       colors: {
         border: "",
         input: "hsl(var(--input))",
-        ring: "",
+        icon_ring: {
+          sales_bg: "#EAE8FD",
+          customers_bg: "#D9F8FC",
+          products_bg: "#FCE5E6",
+          revenue_bg: "#DFF7E9",
+        },
         background: "#F9FAF7",
         foreground: "#FFFFFF",
         primary: {
