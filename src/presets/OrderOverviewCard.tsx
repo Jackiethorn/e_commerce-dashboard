@@ -15,9 +15,9 @@ export const orderOverviewCard = (labels: any, data: any) => ({
         return (
             <div className="flex flex-col justify-center gap-3 py-2.5 px-1">
                 <h2 className="text-secondary_clamp">{this.heading}</h2>
-                <div className="flex gap-3">
+                <div className="flex gap-3 w-5/6">
                     <LineChart data={data} labels={labels} />
-                    <div className="flex flex-col self-center gap-3">
+                    <div className="flex flex-col self-center gap-3 pr-4">
                         <div className={itemClasses}>
                             <img src="/assets/icons/sidebar_link-orders.svg" alt="orders icon" className={iconClasses} />
                             <div>
