@@ -13,8 +13,17 @@ export type ProductsType = {
   discountPercentage: number;
   rating: number;
   stock: number;
+  sale: number;
   brand: string;
   category: string;
   thumbnail: string;
   images: string[];
+};
+
+export type BestSellingProductsTableType = {
+  title: string;
+  price: number;
+  rating: number;
+  stock: number;
+  sale: number;
 };
