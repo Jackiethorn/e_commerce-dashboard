@@ -8,7 +8,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 10000,
     thisMonths_sale: 1500,
     age: 30,
-    icon: "john.jpg",
+    icon: "https://i.pravatar.cc/150?img=3",
     email: "johndoe@gmail.com",
   },
   {
@@ -18,7 +18,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 12000,
     thisMonths_sale: 1800,
     age: 28,
-    icon: "jane.jpg",
+    icon: "https://i.pravatar.cc/150?img=8",
     email: "janesmith@gmail.com",
   },
   {
@@ -28,7 +28,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 8000,
     thisMonths_sale: 1200,
     age: 35,
-    icon: "michael.jpg",
+    icon: "https://i.pravatar.cc/150?img=4",
     email: "michealscottpapercompany@gmail.com",
   },
   {
@@ -38,7 +38,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 11000,
     thisMonths_sale: 1600,
     age: 32,
-    icon: "jim.jpg",
+    icon: "https://i.pravatar.cc/150?img=5",
     email: "jimhalpert@gmail.com",
   },
   {
@@ -48,7 +48,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 9000,
     thisMonths_sale: 1400,
     age: 29,
-    icon: "pam.jpg",
+    icon: "https://i.pravatar.cc/150?img=6",
     email: "pambeesly@gmail.com",
   },
   {
@@ -58,7 +58,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 32000,
     thisMonths_sale: 5320,
     age: 37,
-    icon: "dwight.jpg",
+    icon: "https://i.pravatar.cc/150?img=9",
     email: "bbbschrute.jpg",
   },
   {
@@ -68,7 +68,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 29000,
     thisMonths_sale: 4800,
     age: 40,
-    icon: "donald.jpg",
+    icon: "https://i.pravatar.cc/150?img=10",
     email: "donaldick@gmail.com",
   },
   {
@@ -78,7 +78,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 2200,
     thisMonths_sale: 300,
     age: 50,
-    icon: "karl.jpg",
+    icon: "https://i.pravatar.cc/150?img=11",
     email: "younghegelian@gmail.com",
   },
   {
@@ -88,7 +88,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 3500,
     thisMonths_sale: 599,
     age: 45,
-    icon: "friedrich.jpg",
+    icon: "https://i.pravatar.cc/150?img=12",
     email: "amorfati@gmail.com",
   },
   {
@@ -98,7 +98,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 12000,
     thisMonths_sale: 1800,
     age: 28,
-    icon: "alex.jpg",
+    icon: "https://i.pravatar.cc/150?img=13",
     email: "fenerbahcebiroyuncukaybettifakatbirtaraftarkazandi@gmail.com",
   },
   {
@@ -108,7 +108,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 23200,
     thisMonths_sale: 3105,
     age: 42,
-    icon: "napoleon.jpg",
+    icon: "https://i.pravatar.cc/150?img=14",
     email: "rusyayagiderkenkalingiyin@gmail.com",
   },
   {
@@ -118,7 +118,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 24238,
     thisMonths_sale: 4200,
     age: 47,
-    icon: "adam.jpg",
+    icon: "https://i.pravatar.cc/150?img=15",
     email: "birakinalayimbirakinsatayim@gmail.com",
   },
   {
@@ -128,7 +128,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 3120,
     thisMonths_sale: 440,
     age: 33,
-    icon: "speedy.jpg",
+    icon: "https://i.pravatar.cc/150?img=16",
     email: "kirikkalp_67@hotmail.com",
   },
   {
@@ -138,7 +138,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 1920,
     thisMonths_sale: 150,
     age: 38,
-    icon: "edgar.jpg",
+    icon: "https://i.pravatar.cc/150?img=17",
     email: "nevermore@gmail.com",
   },
   {
@@ -148,7 +148,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 18940,
     thisMonths_sale: 2900,
     age: 1000,
-    icon: "feanor.jpg",
+    icon: "https://i.pravatar.cc/150?img=18",
     email: "princeofnoldor.business@gmai.com",
   },
   {
@@ -158,7 +158,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 17862,
     thisMonths_sale: 4627,
     age: 26,
-    icon: "https://robohash.org/ipsanihilqui.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=20",
     email: "ztothe0@blogspot.com",
   },
   {
@@ -168,7 +168,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 20971,
     thisMonths_sale: 2971,
     age: 21,
-    icon: "https://robohash.org/eteaperspiciatis.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=21",
     email: "adedney1@redcross.org",
   },
   {
@@ -178,7 +178,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 17406,
     thisMonths_sale: 2233,
     age: 52,
-    icon: "https://robohash.org/quisminusdicta.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=22",
     email: "ljewis2@skyrock.com",
   },
   {
@@ -188,7 +188,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 44482,
     thisMonths_sale: 2040,
     age: 21,
-    icon: "https://robohash.org/veritatisaperiamrecusandae.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=23",
     email: "mludlow3@twitter.com",
   },
   {
@@ -198,7 +198,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 40150,
     thisMonths_sale: 2082,
     age: 25,
-    icon: "https://robohash.org/uttemporefuga.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=24",
     email: "rcramond4@nhs.uk",
   },
   {
@@ -208,7 +208,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 41622,
     thisMonths_sale: 3370,
     age: 34,
-    icon: "https://robohash.org/quisquamofficiavoluptas.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=25",
     email: "bsergean5@cnet.com",
   },
   {
@@ -218,7 +218,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 26922,
     thisMonths_sale: 4393,
     age: 50,
-    icon: "https://robohash.org/facererecusandaesequi.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=27",
     email: "aovington6@cbc.ca",
   },
   {
@@ -228,7 +228,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 22362,
     thisMonths_sale: 1538,
     age: 53,
-    icon: "https://robohash.org/teneturestsuscipit.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=28",
     email: "mrosen7@1und1.de",
   },
   {
@@ -238,7 +238,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 9931,
     thisMonths_sale: 1847,
     age: 28,
-    icon: "https://robohash.org/quisperferendisdeleniti.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=29",
     email: "ohunston9j@bbc.co.uk",
   },
   {
@@ -248,7 +248,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 23709,
     thisMonths_sale: 1329,
     age: 43,
-    icon: "https://robohash.org/estetillum.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=30",
     email: "egravenell9k@php.net",
   },
   {
@@ -258,7 +258,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 17430,
     thisMonths_sale: 3303,
     age: 19,
-    icon: "https://robohash.org/auttemporibusrerum.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=31",
     email: "ksiman9l@senate.gov",
   },
   {
@@ -268,7 +268,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 20042,
     thisMonths_sale: 2626,
     age: 35,
-    icon: "https://robohash.org/voluptasdoloresbeatae.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=32",
     email: "adukelow9m@ox.ac.uk",
   },
   {
@@ -278,7 +278,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 11926,
     thisMonths_sale: 2402,
     age: 20,
-    icon: "https://robohash.org/omniseiusdicta.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=33",
     email: "ldrohun9n@tamu.edu",
   },
   {
@@ -288,7 +288,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 6730,
     thisMonths_sale: 3851,
     age: 32,
-    icon: "https://robohash.org/maximedolorvoluptates.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=34",
     email: "abaddiley9o@ihg.com",
   },
   {
@@ -298,7 +298,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 41200,
     thisMonths_sale: 4396,
     age: 32,
-    icon: "https://robohash.org/nobisexpeditaipsa.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=35",
     email: "sbewlay9p@rambler.ru",
   },
   {
@@ -308,7 +308,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 12000,
     thisMonths_sale: 4581,
     age: 26,
-    icon: "https://robohash.org/sedrationeesse.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=36",
     email: "fstallan9q@gizmodo.com",
   },
   {
@@ -318,7 +318,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 9878,
     thisMonths_sale: 2803,
     age: 51,
-    icon: "https://robohash.org/iustoaliquidducimus.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=37",
     email: "lstean9r@comcast.net",
   },
   {
@@ -328,7 +328,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 30670,
     thisMonths_sale: 3413,
     age: 46,
-    icon: "https://robohash.org/aspernaturquiaarchitecto.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=38",
     email: "ckunrad9s@mit.edu",
   },
   {
@@ -338,7 +338,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 41966,
     thisMonths_sale: 3538,
     age: 40,
-    icon: "https://robohash.org/officiisinmolestiae.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=39",
     email: "rweightman9t@shinystat.com",
   },
   {
@@ -348,7 +348,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 34893,
     thisMonths_sale: 4968,
     age: 23,
-    icon: "https://robohash.org/occaecatiquaedeserunt.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=40",
     email: "ljuly9u@apache.org",
   },
   {
@@ -358,7 +358,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 9434,
     thisMonths_sale: 4931,
     age: 28,
-    icon: "https://robohash.org/suntestvel.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=41",
     email: "tcarlyle9v@barnesandnoble.com",
   },
   {
@@ -368,7 +368,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 23511,
     thisMonths_sale: 3507,
     age: 41,
-    icon: "https://robohash.org/sintsintofficiis.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=42",
     email: "dosirin9w@wsj.com",
   },
   {
@@ -378,7 +378,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 7471,
     thisMonths_sale: 4952,
     age: 21,
-    icon: "https://robohash.org/doloremqueminussunt.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=43",
     email: "jschwandermann9x@creativecommons.org",
   },
   {
@@ -388,7 +388,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 20681,
     thisMonths_sale: 3380,
     age: 20,
-    icon: "https://robohash.org/ametminimasunt.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=44",
     email: "bfearby9y@wordpress.org",
   },
   {
@@ -398,7 +398,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 9613,
     thisMonths_sale: 1496,
     age: 33,
-    icon: "https://robohash.org/sitaliquiddebitis.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=45",
     email: "rkoba8x@dropbox.com",
   },
   {
@@ -408,7 +408,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 34480,
     thisMonths_sale: 823,
     age: 47,
-    icon: "https://robohash.org/praesentiumsapienteblanditiis.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=46",
     email: "bspiby8y@theglobeandmail.com",
   },
   {
@@ -418,7 +418,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 15483,
     thisMonths_sale: 1340,
     age: 35,
-    icon: "https://robohash.org/pariaturcumomnis.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=47",
     email: "kphilipeaux8z@mashable.com",
   },
   {
@@ -428,7 +428,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 29799,
     thisMonths_sale: 411,
     age: 40,
-    icon: "https://robohash.org/odionamsaepe.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=48",
     email: "ageleman90@ezinearticles.com",
   },
   {
@@ -438,7 +438,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 8163,
     thisMonths_sale: 3135,
     age: 42,
-    icon: "https://robohash.org/asperiorestotamquia.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=49",
     email: "cbruffell91@canalblog.com",
   },
   {
@@ -448,7 +448,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 28738,
     thisMonths_sale: 4864,
     age: 31,
-    icon: "https://robohash.org/utdeseruntut.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=50",
     email: "tbertolaccini92@photobucket.com",
   },
   {
@@ -458,7 +458,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 39063,
     thisMonths_sale: 4257,
     age: 27,
-    icon: "https://robohash.org/autofficiismolestiae.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=51",
     email: "cbleibaum93@google.com.au",
   },
   {
@@ -468,7 +468,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 42856,
     thisMonths_sale: 4616,
     age: 30,
-    icon: "https://robohash.org/exercitationemcumcumque.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=52",
     email: "tsearch94@themeforest.net",
   },
   {
@@ -478,7 +478,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 19071,
     thisMonths_sale: 723,
     age: 34,
-    icon: "https://robohash.org/quidemenimest.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=53",
     email: "bmumbey95@amazonaws.com",
   },
   {
@@ -488,7 +488,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 42331,
     thisMonths_sale: 4383,
     age: 19,
-    icon: "https://robohash.org/fugavoluptasqui.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=54",
     email: "bmcgruar96@goodreads.com",
   },
   {
@@ -498,7 +498,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 28129,
     thisMonths_sale: 4482,
     age: 52,
-    icon: "https://robohash.org/consequaturdelenitilabore.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=55",
     email: "ginott97@howstuffworks.com",
   },
   {
@@ -508,7 +508,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 4450,
     thisMonths_sale: 2615,
     age: 51,
-    icon: "https://robohash.org/utquasiminima.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=56",
     email: "opalphreyman98@usnews.com",
   },
   {
@@ -518,7 +518,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 27968,
     thisMonths_sale: 4493,
     age: 48,
-    icon: "https://robohash.org/repellendusdictaipsam.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=57",
     email: "jfyfield99@theguardian.com",
   },
   {
@@ -528,7 +528,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 10513,
     thisMonths_sale: 828,
     age: 19,
-    icon: "https://robohash.org/auteiusdolor.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=58",
     email: "astanett9a@guardian.co.uk",
   },
   {
@@ -538,7 +538,7 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 28500,
     thisMonths_sale: 2453,
     age: 29,
-    icon: "https://robohash.org/evenietmollitiaet.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=59",
     email: "rcurme9b@google.it",
   },
   {
@@ -548,7 +548,18 @@ export const TeamData: TeamMemberType[] = [
     total_sale: 3264,
     thisMonths_sale: 464,
     age: 39,
-    icon: "https://robohash.org/modirepellatvoluptatum.png?size=50x50&set=set1",
+    icon: "https://i.pravatar.cc/150?img=60",
     email: "larendsen9c@vistaprint.com",
   },
 ];
+
+function addRevenueData(data: TeamMemberType[]): TeamMemberType[] {
+  return data.map((member) => {
+    return {
+      ...member,
+      revenue: member.total_sale * 3.6,
+    };
+  });
+}
+
+addRevenueData(TeamData);
