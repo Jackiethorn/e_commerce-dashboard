@@ -13,7 +13,7 @@ export async function getBestSellingProducts(data: ProductsType[]) {
   //sort best selling 15 products by sale
   const bestSellingProducts = filteredData
     .sort((a, b) => b.amount - a.amount)
-    .slice(0, 15);
+    .slice(0, 5);
 
   return bestSellingProducts;
 }
