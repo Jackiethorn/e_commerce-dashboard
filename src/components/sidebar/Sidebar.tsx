@@ -24,7 +24,7 @@ export const Sidebar = ({ isSidebarOpen, onSidebarToggle }: SidebarProps) => {
         onSidebarToggle(!isSidebarOpen);
     }
 
-    const sidebarClasses = `sidebar h-screen w-fit xl:w-full xl:w-auto shadow-lg bg-colors-foreground ${isSidebarOpen ? "block" : "hidden"} z-50`
+    const sidebarClasses = `sidebar h-screen w-fit xl:w-full xl:w-auto shadow-lg bg-colors-foreground ${isSidebarOpen ? "block" : "hidden"} z-50 sticky top-0 backdrop-blur-md backdrop-contrast-200 xl:backdrop-blur-none xl:backdrop-contrast-100`
 
     const renderSidebarItems = (items: SidebarItemType[]) => {
         return items.map((item) => {
@@ -60,7 +60,7 @@ export const Sidebar = ({ isSidebarOpen, onSidebarToggle }: SidebarProps) => {
 
 
     return (
-        <div className={sidebarClasses + "relative text-primary_clamp"}>
+        <div className={sidebarClasses + " relative text-primary_clamp"}>
             <div className="sidebar-content flex flex-col items-start ml-3 mr-3">
                 <div className="heading mt-5 mb-5">
                     <h1 className="text-2xl font-bold">Dashboard</h1>

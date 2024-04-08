@@ -28,8 +28,8 @@ export const RootLayout = () => {
     }, []);
 
     return (
-        <div className="min-h-dvh grid grid-cols-6 auto-rows-min grid-rows-auto text-black relative">
-            <aside className={`w-fit xl:w-auto col-span-1 row-span-3 mr-7 ${isSidebarOpen ? "relative" : "xl:absolute"} z-50 backdrop-blur-md backdrop-contrast-200 xl:backdrop-blur-none xl:backdrop-contrast-100`}>
+        <div className="min-h-dvh grid grid-cols-6 auto-rows-min grid-rows-auto text-black">
+            <aside className={`xl:w-auto col-span-1 row-span-3 mr-7 z-50 relative`}>
                 <Sidebar isSidebarOpen={isSidebarOpen} onSidebarToggle={handleSidebarToggle} />
             </aside>
 
@@ -38,7 +38,7 @@ export const RootLayout = () => {
             </header>
 
 
-            <main className={`col-span-5 row-span-1 mr-4 bg-colors-background ml-4 xl:ml-0 relative z-1`}>
+            <main className={`col-span-5 row-span-1 mr-4 bg-colors-background ml-4 xl:ml-0 relative z-1 mb-6`}>
                 <Outlet />
             </main>
 
