@@ -1,5 +1,5 @@
-import { ProductsType } from "../../types/products-types.ts";
-import { PaginationType } from "../../types/products-types.ts";
+import { ProductsType } from "../../types/products.types.ts";
+import { PaginationType } from "../../types/products.types.ts";
 
 // dummyjson.com/products
 export const productsData: (ProductsType | PaginationType)[] = [

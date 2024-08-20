@@ -4,8 +4,7 @@ type CardProps = {
 
 } & React.HTMLAttributes<HTMLDivElement>;
 
-type CardConfig = {
-    title: string;
+export type CardConfig = {
     render: () => JSX.Element | string | null | undefined;
 } & React.HTMLAttributes<HTMLDivElement>;
 

@@ -13,5 +13,5 @@ export type BestSellersFromTeamType = {
   name: string;
   age: number;
   monthly_sale: number;
-  avatar: string;
+  image: string;
 };

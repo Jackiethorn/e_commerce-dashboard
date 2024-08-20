@@ -1,7 +1,8 @@
 export const ProductList = () => {
+
     return (
         <div>
-            <h1>Products</h1>
+            <h2>products</h2>
         </div>
     );
 };

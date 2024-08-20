@@ -4,8 +4,9 @@ export async function getBestSellersFromTeam(data: TeamMemberType[]) {
   const filteredData = data.map((member) => ({
     name: member.first_name + " " + member.last_name,
     age: member.age,
-    avatar: member.icon,
+    image: member.icon,
     monthly_sale: member.thisMonths_sale,
+    total_sale: member.total_sale,
   }));
 
   //sort team members by salary
@@ -21,6 +22,7 @@ export function getBestSellersTableColumns() {
     { type: "accessor", name: "name" },
     { type: "accessor", name: "age" },
     { type: "accessor", name: "monthly_sale" },
-    { type: "accessor", name: "avatar" },
+    { type: "accessor", name: "total_sale" },
+    { type: "accessor", name: "image" },
   ];
 }

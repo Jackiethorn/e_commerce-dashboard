@@ -37,6 +37,7 @@ export const MenuBar = ({ title, icon, items, activeTab, onTabChange }: SidebarI
     // const [isOpen, setIsOpen] = useState(false);
 
     //TODO: PUSH ISOPEN STATE TO LOCAL STORAGE TO KEEP COLLAPSIBLES OPEN/CLOSED ON REFRESH. ALSO ADD ANIMATION
+    //ALSO CHANGE THE ACTIVE TAB'S ICON COLOR.
 
 
     return (
@@ -89,5 +90,5 @@ export const LinkItem = ({ title, link, icon, type, activeTab, onTabChange }: Si
         </Link>
     ) : null;
 
-    return <li onClick={handleClick} className={`sidebar-item outline-1 rounded-md ${activeTab === title ? "bg-cyan-200" : ""}`}>{linkComponent}</li>;
+    return <li onClick={handleClick} className={`sidebar-item outline-1 rounded-md ${activeTab === title ? "bg-secondary text-white" : ""}`}>{linkComponent}</li>;
 }

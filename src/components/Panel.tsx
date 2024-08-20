@@ -10,7 +10,7 @@ type PanelProps = {
 export const Panel = ({ className, children, ...rest }: PanelProps) => {
 
     const panelClasses = classNames(
-        "bg-white rounded p-3 shadow w-full border",
+        "bg-white rounded-md p-3 shadow-lg border",
         className
     );
 

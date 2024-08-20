@@ -20,7 +20,7 @@ const Button = ({
     rest.className,
     'flex items-center gap-3 px-3 py-1.5 border',
     {
-      'border-secondary bg-secondary': variation === 'primary',
+      'border-secondary bg-secondary hover:opacity-70': variation === 'primary',
       'border-gray-900 bg-gray-900': variation === 'secondary',
       'border-green-500 bg-green-500': variation === 'success',
       'border-destructive/25 bg-destructive/75': variation === 'danger',

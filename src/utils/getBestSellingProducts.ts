@@ -1,4 +1,4 @@
-import { ProductsType } from "../types/products-types.ts";
+import { ProductsType } from "../types/products.types.ts";
 
 export async function getBestSellingProducts(data: ProductsType[]) {
   const filteredData = data.map((product) => ({
